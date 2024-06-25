@@ -43,6 +43,8 @@ Descargar e instalar Python3 desde sitio oficial https://www.python.org/download
 
 <DIRECCION_IP_MAQUINA> corresponde a la dirección IP de la máquina de la cual se quiere obtener el archivo CSV.
 
+**NOTA IMPORTANTE:** Para equipos **Linux**, la dirección IP local se obtiene con la ejecución del comando **hostname -I** desde una terminal Bash. 
+Para equipos **Windows**, la dirección IP local se obtiene con la ejecución del comando **socket.gethostbyname(socket.gethostname())** desde una consola de Python3 (se debe importar la librería **socket**).
 
 *******************************************
 **Implementación de API en servidor Linux**
